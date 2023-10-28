@@ -2,7 +2,7 @@ pacman::p_load("tidyverse","ggplot2","shiny","rsconnect")
 
 rsconnect::setAccountInfo(name='vy20g3-ramon0tavares',
                           token='4377040138C2B03B9BE6AF2DAF7AF1A5',
-                          secret='cy3iYOQkgljiJkmCwpjNSGlMKG43PRZJIQiQScyH')
+                          secret='<SECRET>')
 numeroAmostras <- rep(1:94)
 embalagensNaoConformes <- c(12,15,8,10,4,7,16,9,14,10,5,6,17,12,22,
                             8,10,5,13,11,20,18,24,15,9,12,7,13,9,6,
